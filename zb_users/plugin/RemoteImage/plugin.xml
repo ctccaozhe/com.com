@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>RemoteImage</id>
+<name>保存远程图片</name>
+<url>http://www.z18zs.com/</url>
+<note>保存并替换文章中图片到本地，启用插件后新建文章生效</note>
+<description>保存并替换文章中图片到本地，启用插件后新建文章生效</description>
+<path></path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>捷闪站长网</name>
+  <email>2693558149@qq.com</email>
+  <url>http://www.z18zs.com/</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>151626</adapted>
+<version>2.1</version>
+<pubdate>2014-06-11</pubdate>
+<modified>2018-08-15</modified>
+<price>0</price>
+<phpver>5.2</phpver>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <existsfunctions></existsfunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</plugin>

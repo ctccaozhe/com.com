@@ -1,0 +1,141 @@
+/**
+ * 多主题后台管理样式
+ *
+ * @author  心扬 <chrishyze@163.com>
+ */
+
+/*------Tabs Start-------*/
+.multitheme-logo {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    border-bottom: 1px solid #e6e6e6;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+.multitheme-logo::before {
+    content: '';
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-image: url('../logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+    vertical-align: middle;
+}
+.mt-icon {
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  right: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+}
+.mt-icon-monitor {
+  background-image: url('../img/monitor.svg');
+}
+.mt-icon-phone {
+  background-image: url('../img/mobile.svg');
+}
+.mt-icon-tablet {
+  background-image: url('../img/tablet.svg');
+}
+.mt-icon-android {
+  background-image: url('../img/android.svg');
+}
+.mt-icon-ios {
+  background-image: url('../img/apple.svg');
+}
+.mt-icon-setting {
+  background-image: url('../img/setting.svg');
+}
+.mt-icon-help {
+  background-image: url('../img/info.svg');
+}
+.layui-this,
+.layui-tab-content {
+  background-color: #f6f6f6;
+}
+.layui-tab-title .layui-this::after {
+  border-bottom-color: #f6f6f6 !important;
+}
+.layui-tab-content {
+  border: 1px solid #e6e6e6;
+  border-top: none;
+}
+/*------Tabs End-------*/
+.mt-loading-theme {
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+}
+.mt-loading-theme .layui-icon {
+  font-size: 80px;
+}
+/*----Cards Start------*/
+.card {
+  border-radius: 10px;
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  background-color: #ffffff;
+  box-shadow: 2px 3px 10px #909090;
+  overflow: hidden;
+}
+.card .card-image {
+  height: 240px;
+  width: 300px;
+  background: #cfcfcf;
+}
+.card .card-image > img {
+  height: 240px;
+  width: 300px;
+}
+.card .card-header {
+  line-height: 200%;
+  padding: 10px;
+  font-size: 1.25rem;
+  text-align: center;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card .card-body {
+  text-align: center;
+  padding: 5px;
+}
+.card-body label {
+  padding: 0 8px;
+}
+.card-body select {
+  background: transparent;
+  padding: 5px;
+  font-size: 1.2rem;
+  border: 1px solid #ececec;
+  border-radius: 5px;
+}
+.card .card-footer {
+  text-align: center;
+  padding: 5px;
+  border-top: solid 1px #ececec;
+}
+/*----Cards End------*/
+/* From Fixed */
+.layui-form-label {
+  width: 200px;
+}
+/* 兼容ZBP后台自带的admin2.css */
+#divMain * {
+  box-sizing: content-box;
+}
+.table_striped > tbody > tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}

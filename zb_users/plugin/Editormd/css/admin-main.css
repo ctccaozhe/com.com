@@ -1,0 +1,104 @@
+/**
+ * 后台配置页面样式
+ */
+
+#divMain a, #divMain2 a {
+    color: #666;
+}
+#divMain a:hover, #divMain2 a:hover {
+    color: #666;
+}
+.editormd-logo {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+.editormd-logo::before {
+    content: '';
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-image: url('../logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+    vertical-align: middle;
+}
+.editorbtn {
+    background: #3a6ea5;
+    width: 100px;
+    line-height: 200%;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 15px 10px;
+    display: inline-block;
+}
+.editorbtn:hover {
+    cursor: pointer;
+}
+a.underline-link {
+    color: #0000EE !important;
+    text-decoration: underline;
+}
+div.theme-tips {
+    float: right;
+    line-height: 40px;
+}
+div.editorcr {
+    text-align: right;
+}
+div.copyright {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form.theme {
+    margin: 10px;
+}
+form.theme select {
+    height: 30px;
+}
+#theme-select {
+    display: inline;
+    margin-right: 20px;
+}
+.layui-field-box {
+    line-height: 150%;
+}
+.layui-textarea {
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/*layer fixed*/
+
+/*From Fixed*/
+.layui-form-label {
+    width: 100px;
+}
+/*以下为了适应ZBP后台自带的admin2.css*/
+* {
+    box-sizing: content-box
+}
+input[readonly], input[readonly]:hover {
+    background: #FFFFFF;
+    border: solid 1px #D2D2D2;
+    cursor: pointer;
+    color: #000000;
+}
+hr {
+    visibility: visible;
+}
+/* donation */
+#donation_layer {
+    display: none;
+}
+#donation_layer li {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #efefef;
+    border-radius: 8px;
+    word-wrap: break-word;
+}

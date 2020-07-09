@@ -1,0 +1,11 @@
+/**
+ * ContextMenu Plugin For ZblogPHP
+ * @package		ContextMenu.zbp
+ * @version		1.5.1
+ * @date		2017/08/26 09:53
+ * @author		森林生灵 <admin@lanseyujie.com>
+ * @link		https://github.com/lanseyujie/ZBA
+ * @copyright	Copyright(c) 2014-2018, lanseyujie.com
+ * @license		https://opensource.org/licenses/mit-license.php MIT Massachusetts Institute of Technology 
+ */
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(4(a){a.W({D:4(b){8 d=0,c=0,h=0,k=0,e=0,f=0;a(2).S(4(g){d=a(2).A();c=a(2).z();h=g.P;k=g.O;e=g.N;f=g.M;h+a(b).A()>=d&&(e=e-a(b).A()-5);k+a(b).z()>=c&&(f=f-a(b).z()-5);a("K").J({18:4(c){3==c.14&&a(b).T({Y:e,10:f}).L()},Q:4(){a(b).R()}})})},C:4(){2.U=4(){V!1}}})})(11);4 12(){""==(2.6?2.6():9.w.v().x)?t("\\r\\p...\\o\\7\\m\\7\\l\\i\\n\\j\\u\\y"):9.X("I")}4 Z(){8 a=2.6?2.6():9.w.v().x;""==a?t("\\r\\p...\\o\\7\\m\\7\\l\\i\\n\\j\\u\\y"):2.B("E://F.13.G/s?15="+a)}4 16(){8 a=2.6?2.6():9.w.v().x;""==a?t("\\r\\p...\\o\\7\\m\\7\\l\\i\\n\\j\\u\\y"):2.B("E://F.17.G/H?q="+a)}4 19(){8 a=2.6?2.6():9.w.v().x;""==a?t("\\r\\p...\\o\\7\\m\\7\\l\\i\\n\\j\\u\\y"):2.B("H.1a?q="+a)}$(4(){1b(8 a=1c.1d,b="1e;1f;1g;1h 1i;1j;1k".1l(";"),d=!0,c=0;c<b.1m;c++)1n(0<a.1o(b[c])){d=!1;1p}d&&($.D(".1q"),$.C())});',62,89,'||window||function||getSelection|u6ca1|var|document|||||||||u62e9|u5b57||u9009|u8fd8|u6587|u4f60|u5662||u554a||alert|u5462|createRange|selection|text|uff01|height|width|open|disabledContextMenu|mouseMoveShow|https|www|com|search|Copy|on|html|show|pageY|pageX|clientY|clientX|click|hide|mousemove|css|oncontextmenu|return|extend|execCommand|left|baiduSearch|top|jQuery|getSelect|baidu|which|wd|googleSearch|google|contextmenu|localSearch|php|for|navigator|userAgent|Android|iPhone|SymbianOS|Windows|Phone|iPad|iPod|split|length|if|indexOf|break|usercm'.split('|'),0,{}))

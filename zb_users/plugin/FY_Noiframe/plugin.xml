@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>FY_Noiframe</id>
+<name>禁止iframe框架引用</name>
+<url>http://www.fengyan.cc/</url>
+<note>防止网站被别人通过iframe框架引用</note>
+<description></description>
+<path>main.php</path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>烽烟无限</name>
+  <email>744355891@qq.cm</email>
+  <url>http://www.fengyan.cc/</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>151626</adapted>
+<version>1.0</version>
+<pubdate>2016-12-16</pubdate>
+<modified>2016-12-16</modified>
+<price>0</price>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</plugin>

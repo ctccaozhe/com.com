@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>Uplist</id>
+<name>图式附件管理</name>
+<url>http://www.yiwuku.com/</url>
+<note>以图片列表形式可视化操作后台附件管理，批量删除附件，附件管理增强</note>
+<description>改变枯燥文字表格方式，精简参数并自动换算大小单位，尽可能高效方便的操作附件管理；《益吾库》尔今作品，定制修改服务【联系QQ77940140】</description>
+<path></path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>尔今</name>
+  <email>erx@qq.com</email>
+  <url>http://www.yiwuku.com/</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>151603</adapted>
+<version>1.3</version>
+<pubdate>2017-11-25</pubdate>
+<modified>2020-03-17</modified>
+<price>0</price>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</plugin>

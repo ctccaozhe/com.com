@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>MultiThemes</id>
+<name>多主题</name>
+<url>https://bbs.zblogcn.com/thread-94366-1-1.html</url>
+<note>一个网站同时启用多个主题！</note>
+<description>根据客户端类型启用设定的相应主题，使一个网站支持同时启用多个主题。</description>
+<path>main.php#tabs=mt_pc</path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>心扬</name>
+  <email>chrishyze@163.com</email>
+  <url>https://app.zblogcn.com/?auth=2ffbff0a-1207-4362-89fb-d9a780125e0a</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>151626</adapted>
+<version>1.2</version>
+<pubdate>2017-12-23</pubdate>
+<modified>2020-03-11</modified>
+<price>0</price>
+<phpver>5.3</phpver>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <conflict>Pad|2themes|wthemes</conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</plugin>

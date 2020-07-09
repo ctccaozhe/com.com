@@ -1,0 +1,96 @@
+/**
+ * 后台编辑页面样式
+ */
+
+#carea {
+    z-index: 100;
+}
+
+#taera {
+    z-index: 99;
+}
+
+#divMain a,
+#divMain2 a {
+    color: #666;
+}
+
+#divMain a:hover,
+#divMain2 a:hover {
+    color: #666;
+}
+
+#divMain .editormd-preview-container a {
+    color: #4183c4;
+}
+
+#divMain .editormd-preview-container ul,
+#divMain .editormd-preview-container ul li {
+    list-style-type: disc;
+}
+
+#divMain .editormd-preview-container ul ul,
+#divMain .editormd-preview-container ul ul li {
+    list-style-type: circle;
+}
+
+#divMain .editormd-preview-container ol,
+#divMain .editormd-preview-container ol li {
+    list-style-type: decimal;
+}
+
+.markdown-body ol {
+    padding-left: 0;
+}
+
+#divMain .editormd-toc-menu ul,
+#divMain .editormd-toc-menu ul li,
+#divMain .editormd-toc-menu ul ul,
+#divMain .editormd-toc-menu ul ul li {
+    list-style-type: none;
+}
+
+.editormd-html-textarea {
+    display: none;
+}
+
+span#theme-select select {
+    height: 29px;
+}
+
+#GenIntro,
+#GenIntroHintBtn {
+    cursor: pointer;
+    display: inline-block;
+    color: #6d6d6d;
+    line-height: 24px;
+    height: 24px;
+    text-align: center;
+    border-color: #CCCCCC;
+    border-style: solid;
+}
+
+#GenIntro {
+    padding: 0 10px;
+    border-width: 1px;
+    border-radius: 5px 0 0 5px;
+}
+
+#GenIntroHintBtn {
+    width: 24px;
+    border-left-width: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-radius: 0 5px 5px 0;
+}
+
+#GenIntroHint {
+    color: #6d6d6d;
+    display: none;
+}
+
+#editormdContentMd,
+#editormdIntroMd {
+    display: none;
+}

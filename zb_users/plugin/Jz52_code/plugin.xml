@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>Jz52_code</id>
+<name>代码高亮+复制</name>
+<url>https://yeelz.com/</url>
+<note>修改UE编辑器默认的代码高亮效果，并插入一个复制按钮</note>
+<description>修改UE编辑器默认的代码高亮效果，并插入一个复制按钮。兼容自带UE编辑器和NE编辑器</description>
+<path></path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>隔壁老李</name>
+  <email>393988832@qq.com</email>
+  <url>https://yeelz.com</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>151935</adapted>
+<version>1.0</version>
+<pubdate>2019-11-26</pubdate>
+<modified>2020-02-23</modified>
+<price>0</price>
+<phpver>5.2</phpver>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <existsfunctions></existsfunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</plugin>

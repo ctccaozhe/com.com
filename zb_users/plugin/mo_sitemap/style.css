@@ -1,0 +1,19 @@
+#divMain2{overflow: hidden;}
+#divMain2 ul.nav{width: 6%;min-width: 100px;float: left;margin-top: 20px;}
+#divMain2 ul.nav li{border-bottom: 4px solid #008bc7;line-height: 30px;text-align: center;padding: 5px 0;margin-top: 5px;}
+#divMain2 ul.nav li a{padding: 15px 0;width: 100%;display: inline-block;color: #000;}
+#divMain2 ul.nav .active{background-color: #c7ecff;}
+#divMain2>div,form{float: left;margin-left: 20px;min-width: 1000px;width: 90%;}
+form>input[type="submit"]{margin: 50px 0;}
+form>div{border:1px solid #ddd;padding: 5px 10px;margin-bottom: 10px;}
+form>div>p{padding: 2px 5px;}
+/*form>div>p input{width: 100%;}*/
+form>div>p:first-child{border-bottom:1px solid #ddd;}
+form>div>p:last-child{font-size: 14px;color: #848484;/*border:1px solid #ddd;*/}
+form>div>p:first-child span{display: inline-block;/* width: 50%;*/}
+form>div>p:first-child span:first-child{width: 10%;min-width: 200px;border-right:1px solid #ddd;margin-right: 10px;}
+form>div>p:last-child span{width: 50%;}
+form>div>p span:last-child input{width: 100%;}
+form>div>p span:last-child select{width: 80%;min-width: 150px;}
+form>div>p span textarea{width: 100%;min-width: 600px;}
+.dn{display: none;}

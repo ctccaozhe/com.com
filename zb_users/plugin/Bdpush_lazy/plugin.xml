@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>Bdpush_lazy</id>
+<name>百度推送懒人版</name>
+<url>http://www.newbii.cn/</url>
+<note>一键配置，一劳永逸</note>
+<description></description>
+<path>main.php?act=set</path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>Second</name>
+  <email>2770208088@qq.com</email>
+  <url>http://www.newbii.cn</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>151626</adapted>
+<version>2.1.1</version>
+<pubdate>2020-05-13</pubdate>
+<modified>2020-07-03</modified>
+<price>0</price>
+<phpver>5.6</phpver>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <existsfunctions></existsfunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+  <sidebar6></sidebar6>
+  <sidebar7></sidebar7>
+  <sidebar8></sidebar8>
+  <sidebar9></sidebar9>
+</sidebars>
+</plugin>

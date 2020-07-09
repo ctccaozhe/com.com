@@ -1,0 +1,67 @@
+@charset "utf-8";
+/**
+ * 作品：Z-Blog代码高亮+复制
+ * 作者：隔壁老李
+ * 网址：https://zpanz.com
+ * 本插件完全免费，请勿删除此段内容
+ */
+@font-face {
+  font-family: 'MonacoRegular';
+  src: url(font/monaco-webfont.eot);
+  src: url(font/monaco-webfont.eot?#iefix) format('embedded-opentype'), url(font/monaco-webfont.woff) format('woff'), url(font/monaco-webfont.ttf) format('truetype'), url(font/monaco-webfont.svg#MonacoRegular) format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+code[class*="language-"], pre[class*="language-"] {
+	color:#fff;
+	text-shadow: none;
+	font-size: 1rem;
+	font-family:Monaco,'MonacoRegular','Microsoft Yahei',monospace;
+	}
+pre[class*="language-"] {
+  border-radius: 0.3em
+}
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+  background: #1f1f1f;
+}
+.prism-token.prism-punctuation {
+  color: #fff;
+}
+.prism-token.property, .prism-token.prism-tag, .prism-token.prism-boolean, .prism-token.prism-number, .prism-token.prism-constant, .prism-token.prism-symbol, .prism-token.prism-deleted {
+  color: #f92650;
+}
+.prism-token.prism-selector, .prism-token.prism-attr-name, .prism-token.prism-string, .prism-token.prism-char, .prism-token.prism-builtin, .prism-token.prism-inserted {
+  color: #a6e22d;
+}
+.prism-token.prism-operator, .prism-token.prism-entity, .prism-token.prism-url, .prism-language-css .prism-token.prism-string, .prism-style .prism-token.prism-string {
+  color: #fff;
+  background: none;
+}
+.prism-token.prism-atrule, .prism-token.prism-attr-value, .prism-token.prism-keyword {
+  color: #e6db5d;
+}
+.prism-token.prism-function {
+  color: #DD4A68;
+}
+.prism-line-numbers .prism-line-numbers-rows {
+  border-right: none;
+}
+.prism-line-numbers-rows > span:before {
+  color: #868686;
+  padding-right: none;
+  text-align: center;
+}
+div.prism-show-language > div.prism-show-language-label[data-language] {
+  background-color: #eee;
+  border: 1px solid #eee;
+  font-size: 0.8em;
+  border-radius: 0 0.3em 0;
+  padding: 0 0.5em;
+}
+.prism-show-language-label img.Jz52_code{	
+	display: inline;
+    margin-bottom: 3px;
+}
+div.post-body code {
+    border: none;
+}

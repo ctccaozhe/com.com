@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*-------------------
+*Description:        By www.yiwuku.com
+*Website:            https://app.zblogcn.com/?auth=3ec7ee20-80f2-498a-a5dd-fda19b198194
+*Author:             尔今 erx@qq.com
+*update:             2017-11-23(Last:2020-03-17)
+-------------------*/
+.uplist{overflow:hidden;clear:both;}
+.uplist li{position:relative;float:left;width:200px;margin:5px 15px 10px 0;background:#333;}
+.uplist li .mp{display:block;height:150px;text-align:center;overflow:hidden;}
+.uplist li .mp:after{content:'';display:inline-block;width:0;height:100%;vertical-align:middle;}
+.uplist li .mp img{width:auto;height:auto;max-width:100%;max-height:100%;vertical-align:middle;}
+.uplist li .vc{height:24px;line-height:24px;font-size:12px;font-family:Arial;background:#222;background:#000;padding:0 5px;overflow:hidden;}
+.uplist li:hover .vc{background:#3a6ea5;overflow:hidden;}
+.uplist li .vc span{color:#999;}
+.uplist li .vc .cpurl{margin-left:15px;color:#bbb !important;}
+.uplist li .vc .del{float:right;color:#fff !important;font-size:18px;}
+.uplist li .vc .flink{position:absolute;top:-100%;left:-100%;opacity:0}
+.uplist li .vc.selected{background:#f50;}
+.uplist li:hover .vc span, .uplist li .vc.selected span{color:#ddd !important;}
+.uplist li:hover .vc .cpurl, .uplist li .vc.selected .cpurl{color:#fff !important;}
+.uplist li .ulid{margin:-2px 4px 0 0;vertical-align:middle;}
+.uplist-tip{line-height:1.5;color:#bbb;margin:15px 0;padding:3px 8px;font-size:12px;border:1px #eee solid;}
+.uplist-tip a{color:#888 !important;}
+.tableFull{display:none;}
+.uplist-act{position:absolute;text-align:right;}
+.search, .pagebar{position:relative;}
+.search .uplist-act{right:10px;bottom:16px;}
+.pagebar .uplist-act{top:9px;right:0;}
+input.button{margin-right:0;}

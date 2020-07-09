@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>SpiderStatistics</id>
+<name>来访蜘蛛统计</name>
+<url>http://www.fengwensheng.com</url>
+<note>来访蜘蛛统计，统计来访蜘蛛</note>
+<description>来访蜘蛛统计，统计来访蜘蛛</description>
+<path>main.php?act=config</path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>流年岁月</name>
+  <email>372664700@qq.com</email>
+  <url>http://www.fengwensheng.com/</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>140614</adapted>
+<version>1.3</version>
+<pubdate>2014-08-26</pubdate>
+<modified>2015-03-17</modified>
+<price>0</price>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</plugin>

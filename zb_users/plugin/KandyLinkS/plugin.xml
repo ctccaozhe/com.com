@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>KandyLinkS</id>
+<name>KandyLinkS 链接管理简版</name>
+<url>http://jgpy.cn/blog/back-end/KandyLink.htm</url>
+<note>链接模块界面化管理，无需HTML编码知识。支持二级菜单及简单交互。</note>
+<description>这不应该是Z-Blog自带的功能么？真正用博客的有几个是会写代码的？虽然新版很人性的添加了新建分类和页面自动插入导航栏的功能，可友情链接什么的呢？照着格式改？万一漏了个字母或标签呢？什么，页面乱了？够了么？够了就用KandyLink吧：
+
+妈妈再也不用担心我不会如何爱爱（HTML）！
+无需HTML编码知识便可轻松管理含二级菜单的链接。
+可自由调整链接顺序，打开方式。
+插件启用后会自动备份原链接模块，停用后还原。
+自带二级菜单交互开合，默认为悬停开合，当父链接为“#”时，启用点击开合。
+
+更多详细说明请访问插件发布页面了解，谢谢！
+
+更新日志
+2017-10-17 V1.1
+NEW 新增备份当前链接内容的功能
+BUG 修复1.5系统无法正常使用开关的问题
+2015-05-17 V1.0
+插件首发</description>
+<path>main.php</path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>吉光片羽</name>
+  <email>i@jgpy.cn</email>
+  <url>http://jgpy.cn</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>150101</adapted>
+<version>1.1</version>
+<pubdate>2014-11-21</pubdate>
+<modified>2017-10-17</modified>
+<price>0</price>
+<phpver>5.2</phpver>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <existsfunctions></existsfunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</plugin>

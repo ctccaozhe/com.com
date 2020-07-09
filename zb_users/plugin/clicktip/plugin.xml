@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>clicktip</id>
+<name>点击提示</name>
+<url>http://www.toyean.com/post/clicktip.html</url>
+<note>点击页面显示自定义提示语</note>
+<description>点击页面显示自定义提示语，默认为社会主义核心价值观。</description>
+<path>main.php?act=base</path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>toyean</name>
+  <email>toyean@qq.com</email>
+  <url>http://www.toyean.com</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>151740</adapted>
+<version>1.0</version>
+<pubdate>2017-12-13</pubdate>
+<modified>2017-12-13</modified>
+<price>0</price>
+<phpver>5.2</phpver>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <existsfunctions></existsfunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</plugin>

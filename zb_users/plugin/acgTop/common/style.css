@@ -1,0 +1,26 @@
+.fade {
+  transition: opacity 0.6s linear;
+  opacity: 0;
+}
+.fade.in {
+  opacity: 0.86;
+}
+.acgTop {
+  position: fixed;
+  right: -3px;
+  bottom: 0;
+  z-index: 128;
+  display: none;
+  width: 172px;
+  height: 258px;
+  background: url("img/reimu.png");
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .acgTop.active {
+    display: block;
+  }
+  .acgTop:hover {
+    opacity: 1;
+  }
+}
