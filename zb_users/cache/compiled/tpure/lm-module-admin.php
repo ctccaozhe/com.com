@@ -3,6 +3,7 @@
 if (!isset($item->text)){
   $item->text = $item->name;
 }
+$item->text = FormatString($item->text, '[html-format]');
  ?>
 <tr class="<?php if ($item->issub) { ?>LinksManageSub<?php } ?>">
   <td class="fisrt"><input style="width:95%" name="href[]" value="<?php  echo $item->href;  ?>" size="30"></td>

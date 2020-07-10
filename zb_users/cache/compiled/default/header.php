@@ -12,7 +12,7 @@
 	<script src="<?php  echo $host;  ?>zb_system/script/zblogphp.js" type="text/javascript"></script>
 	<script src="<?php  echo $host;  ?>zb_system/script/c_html_js_add.php" type="text/javascript"></script>
 	<script src="<?php  echo $host;  ?>zb_users/theme/<?php  echo $theme;  ?>/script/custom.js" type="text/javascript"></script>
-<?php  echo $header;  ?><link rel="stylesheet" href="http://cz.caozhexxgweb.cn:4712/zb_users/plugin/live2d2/var/css/live2d.css?v=2020-06-07" /><link rel="stylesheet" href="http://cz.caozhexxgweb.cn:4712/zb_users/plugin/acgTop/common/style.css?v=2020-05-20" />
+<?php  echo $header;  ?><link rel="stylesheet" href="https://cz.caozhexxgweb.cn/zb_users/plugin/acgTop/common/style.css?v=2020-05-20" /><link rel="stylesheet" href="https://cz.caozhexxgweb.cn/zb_users/plugin/live2d2/var/css/live2d.css?v=2020-06-07" />
 <?php if ($type=='index'&&$page=='1') { ?>
 	<link rel="alternate" type="application/rss+xml" href="<?php  echo $feedurl;  ?>" title="<?php  echo $name;  ?>" />
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="<?php  echo $host;  ?>zb_system/xml-rpc/?rsd" />

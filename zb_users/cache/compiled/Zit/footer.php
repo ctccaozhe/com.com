@@ -2,7 +2,7 @@
   <div class="inner">
     <h4>&copy; <?php  echo date('Y',time());  ?> <a href="<?php  echo $host;  ?>" class="zit"><?php  echo $cfg->Logo?$cfg->Logo:$name;  ?></a> <?php  echo $copyright;  ?></h4>
     <h5>Powered By <a href="//www.zblogcn.com" title="<?php  echo $zblogphp;  ?>" target="_blank">Z-Blog</a> Theme By <a href="//jgpy.cn" target="_blank" title="前端开发·自由设计">吉光片羽</a></h5>
-    <?php  echo $footer;  ?><div id="landlord">
+    <?php  echo $footer;  ?><div title="要回到上边么？" class="acgTop fade"></div><script src="https://cz.caozhexxgweb.cn/zb_users/plugin/acgTop/common/script.js?v=2020-05-20"></script><div id="landlord">
   <div class="message"></div>
   <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
   <!--
@@ -34,15 +34,15 @@
 </div>
 <div id="open_live2d">召唤伊斯特瓦尔</div>
 <script>
-    var message_Path = 'http://cz.caozhexxgweb.cn:4712/zb_users/plugin/live2d2/usr/';
+    var message_Path = 'https://cz.caozhexxgweb.cn/zb_users/plugin/live2d2/usr/';
     // var model_Name = 'nep';
-    var model_Path = 'http://cz.caozhexxgweb.cn:4712/zb_users/plugin/live2d2/var/model/nep/';
+    var model_Path = 'https://cz.caozhexxgweb.cn/zb_users/plugin/live2d2/var/model/nep/';
     var model_textures = ["nep.1024\/texture_00.png","nep.1024\/texture_01.png","nep.1024\/texture_02.png"]; // 贴图数组
-    var home_Path = 'http://cz.caozhexxgweb.cn:4712/';  // 此处修改为你的域名，必须带斜杠
+    var home_Path = 'https://cz.caozhexxgweb.cn/';  // 此处修改为你的域名，必须带斜杠
     var talkAPI = "";
 </script>
-<script src="http://cz.caozhexxgweb.cn:4712/zb_users/plugin/live2d2/var/js/live2d.js?v=2020-06-07"></script>
-<script src="http://cz.caozhexxgweb.cn:4712/zb_users/plugin/live2d2/var/js/message.js?v=2020-06-07"></script><div title="要回到上边么？" class="acgTop fade"></div><script src="http://cz.caozhexxgweb.cn:4712/zb_users/plugin/acgTop/common/script.js?v=2020-05-20"></script>
+<script src="https://cz.caozhexxgweb.cn/zb_users/plugin/live2d2/var/js/live2d.js?v=2020-06-07"></script>
+<script src="https://cz.caozhexxgweb.cn/zb_users/plugin/live2d2/var/js/message.js?v=2020-06-07"></script>
   </div>
 </footer>
 </body>

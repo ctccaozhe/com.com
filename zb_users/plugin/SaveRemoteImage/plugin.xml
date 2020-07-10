@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin version="php">
-<id>AppCentre</id>
-<name>应用中心客户端</name>
-<url>https://www.zblogcn.com/</url>
-<note>Z-BlogPHP版的资源大本营</note>
+<id>SaveRemoteImage</id>
+<name>保存站外图片</name>
+<url>https://kfuu.cn</url>
+<note>自动将文章中的站外图片保存在网站上</note>
 <description></description>
 <path>main.php</path>
 <include>include.php</include>
 <level>1</level>
 <author>
-  <name>zx.asd</name>
-  <email>rainbowsoft@gmail.com</email>
-  <url>https://www.zblogcn.com/</url>
+  <name>可风网</name>
+  <email>59005022@qq.com</email>
+  <url>kfuu.cn</url>
 </author>
 <source>
   <name></name>
   <email></email>
   <url></url>
 </source>
-<adapted>150101</adapted>
-<version>2.53</version>
-<pubdate>2013-07-07</pubdate>
-<modified>2020-06-17</modified>
+<adapted>151935</adapted>
+<version>1.1</version>
+<pubdate>2019-09-27</pubdate>
+<modified>2020-06-19</modified>
 <price>0</price>
-<phpver>5.2</phpver>
+<phpver>5.4</phpver>
 <advanced>
   <dependency></dependency>
   <rewritefunctions></rewritefunctions>
-  <existsfunctions></existsfunctions>
+  <existsfunctions>getimagesize</existsfunctions>
   <conflict></conflict>
 </advanced>
 <sidebars>

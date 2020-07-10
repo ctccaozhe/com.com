@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin version="php">
-<id>AppCentre</id>
-<name>应用中心客户端</name>
-<url>https://www.zblogcn.com/</url>
-<note>Z-BlogPHP版的资源大本营</note>
+<id>tools</id>
+<name>蜘蛛地图标准协议</name>
+<url>https://rongkeji.cn/</url>
+<note>本sitemap地图按照标准协议编写，所以搜索引擎通吃，权重、更新频率、时间都会自动生成，严格按照优化标准生成。</note>
 <description></description>
 <path>main.php</path>
 <include>include.php</include>
 <level>1</level>
 <author>
-  <name>zx.asd</name>
-  <email>rainbowsoft@gmail.com</email>
-  <url>https://www.zblogcn.com/</url>
+  <name>屎驼驼.</name>
+  <email>admin@rongkeji.cn</email>
+  <url>https://rongkeji.cn/</url>
 </author>
 <source>
   <name></name>
   <email></email>
   <url></url>
 </source>
-<adapted>150101</adapted>
-<version>2.53</version>
-<pubdate>2013-07-07</pubdate>
-<modified>2020-06-17</modified>
+<adapted>130707</adapted>
+<version>1.0</version>
+<pubdate>2018-05-15</pubdate>
+<modified>2018-05-15</modified>
 <price>0</price>
-<phpver>5.2</phpver>
 <advanced>
   <dependency></dependency>
   <rewritefunctions></rewritefunctions>
-  <existsfunctions></existsfunctions>
   <conflict></conflict>
 </advanced>
 <sidebars>
@@ -36,9 +34,5 @@
   <sidebar3></sidebar3>
   <sidebar4></sidebar4>
   <sidebar5></sidebar5>
-  <sidebar6></sidebar6>
-  <sidebar7></sidebar7>
-  <sidebar8></sidebar8>
-  <sidebar9></sidebar9>
 </sidebars>
 </plugin>
