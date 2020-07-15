@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>no_repeat</id>
+<name>防止文章标题别名重复（支持分类、标签、用户）</name>
+<url>http://www.huisem.com</url>
+<note>防止文章标题别名重复（支持分类、标签、用户）</note>
+<description>防止文章标题别名重复（支持分类、标签、用户），插件只是提醒功能，保存的时候未做验证，即使提示有重复，部分支持重复的操作还是可以保存成功的！</description>
+<path></path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>流年</name>
+  <email>841217204@qq.com</email>
+  <url>http://www.huisem.com</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>151740</adapted>
+<version>2</version>
+<pubdate>2017-08-22</pubdate>
+<modified>2018-06-01</modified>
+<price>0</price>
+<phpver>5.2</phpver>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <existsfunctions></existsfunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</plugin>

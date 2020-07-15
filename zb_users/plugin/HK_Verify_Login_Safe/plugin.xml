@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>HK_Verify_Login_Safe</id>
+<name>后台登录验证码安全认证</name>
+<url>https://www.newjianzhi.com/</url>
+<note>为登录后台添加验证码，担心被爆破者的福音</note>
+<description>害怕被别人枚举爆破密码？有了这个后台登录验证码，不怕你试。</description>
+<path></path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>HaKing</name>
+  <email>43649260@qq.com</email>
+  <url>https://www.newjianzhi.com/</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>151740</adapted>
+<version>1.1</version>
+<pubdate>2017-05-28</pubdate>
+<modified>2017-07-25</modified>
+<price>0</price>
+<phpver>5.2</phpver>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <existsfunctions></existsfunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</plugin>
